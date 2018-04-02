@@ -1,0 +1,38 @@
+{
+  "private": true,
+  "name": "webpack-es6-startkit",
+  "version": "1.0.2",
+  "license": "MIT",
+  "keywords": [
+    "babel",
+    "webpack"
+  ],
+  "author": "cys",
+  "scripts": {
+    "start": "webpack-dev-server --config webpack.config.js --progress --inline --colors",
+    "build": "webpack --config webpack-production.config.js --progress --colors"
+  },
+  "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-eslint": "^7.1.1",
+    "babel-loader": "^6.2.7",
+    "babel-plugin-transform-flow-strip-types": "^6.18.0",
+    "babel-preset-latest": "^6.16.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.16.0",
+    "eslint": "^3.11.1",
+    "eslint-config-airbnb-base": "^10.0.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-react": "^7.7.0",
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.16.0",
+    "json-server": "^0.12.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.7",
+    "redux": "^3.7.2"
+  }
+}
