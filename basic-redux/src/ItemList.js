@@ -21,7 +21,7 @@ const ItemList = (props: any) => {
     </p>
   )
 }
-//store.items → props.items
+//store.items →(binding)→ props.items
 const mapStateToProps = store => ({ items: store.items });
 //Connect Redux Store
 export default connect(mapStateToProps, actionCreators)(ItemList);

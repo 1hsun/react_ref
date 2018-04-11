@@ -20,5 +20,5 @@ const ItemInput = (props: any) => {
     </form>
   )
 }
-//Connect Redux Store, since misson here is to Input, then need no store items to props.(w/o mapStateToProps)
+//Connect Redux Store, since misson here is to Input, need no store items to props.(w/o mapStateToProps)
 export default connect(null, actionCreators)(ItemInput);
