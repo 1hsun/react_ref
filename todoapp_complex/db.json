@@ -1,0 +1,31 @@
+{
+  "items": [
+    {
+      "id": 1523437915532,
+      "title": "am I right ?",
+      "isCompleted": false
+    },
+    {
+      "id": 1523437919668,
+      "title": "so i did it ?",
+      "isCompleted": false
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

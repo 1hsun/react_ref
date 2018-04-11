@@ -1,0 +1,10 @@
+#todoitem_del_btn{
+  float: right;
+  margin: 0%
+}
+#todoitem_li{
+  min-height: 60px;
+}
+#todooption{
+  margin: 10px;
+}
