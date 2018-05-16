@@ -1,6 +1,6 @@
 //@flow
 import { TOGGLE_FILTER } from '../constants/actionTypes';
-export default function fileterOut(state: { isFilteringOut: boolean } = { isFilteringOut: false }, action: Object) {
+export default function filterOut(state: { isFilteringOut: boolean } = { isFilteringOut: false }, action: Object) {
   switch (action.type) {
     case TOGGLE_FILTER:
       {
